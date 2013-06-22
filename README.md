@@ -1,6 +1,6 @@
-# Robbin's website  
+# Maxzy's website  
 
-<http://robbinfan.com>
+<http://maxzy.github.com>
 
 This is my personal website project.
 
