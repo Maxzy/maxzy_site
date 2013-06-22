@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title><%= @title ? "#{@title} - #{APP_CONFIG['site_title']}": APP_CONFIG['site_title'] %></title>
     <meta name="description" content="<%= @description || APP_CONFIG['site_description'] %>">
-    <meta name="author" content="Robbin Fan">
+    <meta name="author" content="Maxzy Fan">
     <link href="/rss" rel="alternate" title="<%= APP_CONFIG['site_title'] %>" type="application/rss+xml" />
     <%= stylesheet_link_tag '/skins/default/document', '/skins/default/content' %>
     <%= yield_content :stylesheets %>
@@ -58,16 +58,16 @@
     </div><!-- content -->
     
     <div class="footer">
-    	<a href="http://weibo.com/robbinfan" class="weibo">Weibo</a>
-      <a href="https://github.com/robbin" class="github">Github</a>      
-      <a href="mailto:fankai@gmail.com" class="mail">Email</a>
+    	<a href="*" class="weibo">Weibo</a>
+      <a href="https://github.com/maxzy" class="github">Github</a>      
+      <a href="mailto:yundx1117@gmail.com" class="mail">Email</a>
       <% if APP_CONFIG['show_certification'] %>
       <div class="certification">
         <span>京ICP备13004925号-1</span><span>京公网安备11010502023235号</span>
       </div>
       <% end %>
       <div class="powered-by">
-        <a href="http://robbinfan.com" title="robbin的自言自语">Powered by robbin</a>
+        <a href="http://maxzy.com" title="Maxzy的自言自语">Powered by Maxzy</a>
       </div>
     </div><!-- footer -->
     <%= javascript_include_tag 'jquery', 'jquery-ujs', 'application' %>
